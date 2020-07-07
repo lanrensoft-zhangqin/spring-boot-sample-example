@@ -1,2 +1,2 @@
 # spring-boot-sample-example
-简单的springbootweb项目
+简单演示spring web
