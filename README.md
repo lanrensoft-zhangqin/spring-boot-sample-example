@@ -1,2 +1,4 @@
-# spring-boot-sample-example
-简单演示spring web
+# spring-boot demo
+
+**使用spring最新版本搭建一个简单的系统**
+
