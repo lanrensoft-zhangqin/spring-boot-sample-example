@@ -12,6 +12,7 @@ import springbootexample.zhangqin.soft.service.ISysInfoService;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -33,12 +34,12 @@ public class SystemInfoController {
         return "info";
     }
 
-    @GetMapping("/error")
+    @GetMapping("/test/error")
     public @ResponseBody
-     String error(ModelMap modelMap, HttpServletRequest request){
+     String error(){
 
         LOG.error("测试");
 
-        return "errorLogTest";
+        return "testErrorLog";
     }
 }
